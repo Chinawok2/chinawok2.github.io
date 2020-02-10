@@ -1,3 +1,15 @@
 body {
     background: #FF8484;
 }
+
+.menu {
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1230px) {
+    .menu {
+        flex-direction: column;
+    }
+}
