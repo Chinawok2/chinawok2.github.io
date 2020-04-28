@@ -13,3 +13,7 @@ body {
         flex-direction: column;
     }
 }
+
+.error {
+    text-align: center;
+}
